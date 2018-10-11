@@ -1,0 +1,128 @@
+@font-face{
+  src: 'BebasNeue-Regular.ttf';
+  font-family: 'bebas';
+}
+
+@font-face{
+  src: 'coolvetica.ttf';
+  font-family: 'coolvetica';
+}
+
+/* ------ fonts end ------- */
+
+html{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2f2;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 0;
+  font-family: 'coolvetica';
+  font-size: 1.2rem;
+  width: 700px;
+  background-color: #f2f2f2;
+}
+
+div{
+  font-family: 'coolvetica';
+}
+
+.info{
+  border-bottom: solid 1px grey;
+}
+
+.label{
+  float: left;
+  text-align: left;
+  color: rgba(0,0,0,0.7);
+}
+
+.value{
+  float: right;
+  text-align: right;
+}
+
+.container{
+  padding-top: 80px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 400px auto;
+  grid-template-rows: 300px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+  padding-bottom: 80px;
+}
+
+.flag{
+  position: relative;
+  grid-column: 2;
+  grid-row: 1;
+  text-align: center;
+}
+
+.flag > img{
+  max-height: 200px;
+}
+
+#search{
+  grid-column: 2;
+  grid-row: 2;
+  width: 75%;
+  float: left;
+}
+
+#button{
+  grid-column: 2;
+  grid-row: 2;
+  width: 25%;
+  margin-left: 76%;
+}
+
+#name{
+  grid-column: 2;
+  grid-row: 3;
+}
+
+#tld{
+  grid-column: 2;
+  grid-row: 4;
+}
+
+#alphacode{
+  grid-column: 2;
+  grid-row: 5;
+}
+
+#calling{
+  grid-column: 2;
+  grid-row: 6;
+}
+
+#capital{
+  grid-column: 2;
+  grid-row: 7;
+}
+
+#population{
+  grid-column: 2;
+  grid-row: 8;
+}
+
+#latlng{
+  grid-column: 2;
+  grid-row: 9;
+}
+
+#language{
+  grid-column: 2;
+  grid-row: 10;
+}
+
+#region{
+  grid-column: 2;
+  grid-row: 11;
+}
